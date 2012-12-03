@@ -20,7 +20,7 @@ replace with
 
 ```html
 						<!-- IF S_DL_LYTEBOX -->
-							<li><a href="{downloads.thumbnail.THUMBNAIL_LINK}" title="{downloads.thumbnail.THUMBNAIL_NAME}" data-fancybox-group="dlmodthumbs" class="fancybox"><img src="{downloads.thumbnail.THUMBNAIL_LINK}" alt="{downloads.thumbnail.THUMBNAIL_NAME}" title="{downloads.thumbnail.THUMBNAIL_NAME}" style="max-weight: 150px; max-height: 100px;" /></a></li>
+							<li><a href="{downloads.thumbnail.THUMBNAIL_LINK}" title="{downloads.thumbnail.THUMBNAIL_NAME}" class="fancybox" rel="<!-- IF S_TOTAL_IMAGES -->[DLMT]<!-- ENDIF -->"><img src="{downloads.thumbnail.THUMBNAIL_LINK}" alt="{downloads.thumbnail.THUMBNAIL_NAME}" title="{downloads.thumbnail.THUMBNAIL_NAME}" style="max-weight: 150px; max-height: 100px;" /></a></li>
 						<!-- ELSE -->
 							<img src="{downloads.thumbnail.THUMBNAIL_LINK}" alt="{downloads.thumbnail.THUMBNAIL_NAME}" title="{L_DLdownloads.thumbnail.THUMBNAIL_NAME}" style="max-weight: 150px; max-height: 100px;" />
 						<!-- ENDIF -->
