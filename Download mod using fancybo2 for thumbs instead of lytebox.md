@@ -36,7 +36,7 @@ replace with
 i changed this to 
 
 ```html
-<dt><a href="{thumbnails.IMG_LINK}" data-fancybox-group="dlmodthumbs" class="fancybox" title="{thumbnails.IMG_TITLE}"><img src="{thumbnails.IMG_LINK}" alt="{thumbnails.IMG_TITLE}" title="{thumbnails.IMG_TITLE}" style="max-weight: 150px; max-height: 100px;" /></a></dt>
+<dt><a href="{thumbnails.IMG_LINK}" class="fancybox" title="{thumbnails.IMG_TITLE}"><img src="{thumbnails.IMG_LINK}" alt="{thumbnails.IMG_TITLE}" title="{thumbnails.IMG_TITLE}" style="max-weight: 150px; max-height: 100px;" /></a></dt>
 ```
 
 
