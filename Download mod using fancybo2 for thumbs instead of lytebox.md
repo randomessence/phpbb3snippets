@@ -33,7 +33,7 @@ replace with
 <dt><a href="{thumbnails.IMG_LINK}" rel="lytebox" title="{thumbnails.IMG_TITLE}"><img src="{thumbnails.IMG_LINK}" alt="{thumbnails.IMG_TITLE}" title="{thumbnails.IMG_TITLE}" style="max-weight: 150px; max-height: 100px;" /></a></dt>
 ```
 
-i changed this to 
+i changed this to (not actually sure what this edit does, if anything)
 
 ```html
 <dt><a href="{thumbnails.IMG_LINK}" class="fancybox" title="{thumbnails.IMG_TITLE}"><img src="{thumbnails.IMG_LINK}" alt="{thumbnails.IMG_TITLE}" title="{thumbnails.IMG_TITLE}" style="max-weight: 150px; max-height: 100px;" /></a></dt>
