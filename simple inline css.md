@@ -1,13 +1,13 @@
-'simple inline css`
+simple inline css
 
-[c]{TEXT}[/c]
+`[c]{TEXT}[/c]`
 
-'''<code class="inline">{TEXT}</code>'''
+```<code class="inline">{TEXT}</code>```
 
 
-'theme/colors.css'
+`theme/colors.css`
 
-'''css
+```css
 code.inline {
     background: none repeat scroll 0 0 #FFFFFF;
     border: 1px solid #C9D2D8;
@@ -19,4 +19,4 @@ code.inline {
     line-height: 1.3em;
     padding: 0 3px;
 }
-'''
+```
