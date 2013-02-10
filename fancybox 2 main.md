@@ -1,3 +1,4 @@
+```html
 <script type ="text/javascript" src="{ROOT_PATH}js/jquery/jquery.js" ></script>
 
 <!-- Fancybox 2 starts here -->
@@ -29,3 +30,4 @@ $(document).ready(function() {
 	});
 });
 </script>
+```
