@@ -2,7 +2,9 @@ simple inline css
 
 `[c]{TEXT}[/c]`
 
-```<code class="inline">{TEXT}</code>```
+```html
+<code class="inline">{TEXT}</code>
+```
 
 
 `theme/colors.css`
