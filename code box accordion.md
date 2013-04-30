@@ -171,12 +171,15 @@ After
 
 Accordion content
 
+Before
+
 	.ui-accordion .ui-accordion-content {
 	padding : 1em 2.2em;
 	border-top : 0;
 	overflow : auto;
 	}
-edited version:
+
+After
 
 	.ui-accordion .ui-accordion-content {
 	padding : 0.0px 4px 0.2px 4px;
