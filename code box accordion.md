@@ -82,11 +82,9 @@ After
     blockquote dl.codebox {
       margin-left : 0;
     }
-```
 
-.happy {padding: 1px 4px 0px 4px; border-bottom: solid #79B7E7 1px;}
+	.happy {padding: 1px 4px 0px 4px; border-bottom: solid #79B7E7 1px;}
 
-```css
     dl.codebox pre {
        /* Also see tweaks.css */
       overflow : auto;
