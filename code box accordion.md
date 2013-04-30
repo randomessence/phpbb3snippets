@@ -18,6 +18,7 @@ content.css
 
 Before
 
+```css
     /* Code block */
     dl.codebox {
       padding : 3px;
@@ -56,9 +57,11 @@ Before
       color : #8b8b8b;
       margin : 2px 0;
     }
+```
 
 After
 
+```css
     /* Code block */
     dl.codebox {
       padding : 0px;
@@ -79,9 +82,11 @@ After
     blockquote dl.codebox {
       margin-left : 0;
     }
+```
 
 .happy {padding: 1px 4px 0px 4px; border-bottom: solid #79B7E7 1px;}
 
+```css
     dl.codebox pre {
        /* Also see tweaks.css */
       overflow : auto;
@@ -102,6 +107,7 @@ After
       color : #8b8b8b;
       margin : 0px;
     }
+```
 
 redmond jquery-ui.css
 
@@ -109,6 +115,7 @@ Corner radius
 
 Before
 
+```css
     /* Misc visuals
     ----------------------------------*/
     
@@ -137,9 +144,11 @@ Before
     . ui-corner-br {
       border-bottom-right-radius : 5px;
     }
+```
 
 After
 
+```css
     /* Misc visuals
     ----------------------------------*/
     
@@ -168,25 +177,29 @@ After
     .ui-corner-br {
       border-bottom-right-radius : 0px;
     }
+```
 
 Accordion content
 
 Before
 
+```css
 	.ui-accordion .ui-accordion-content {
 	padding : 1em 2.2em;
 	border-top : 0;
 	overflow : auto;
 	}
+```
 
 After
 
+```css
 	.ui-accordion .ui-accordion-content {
 	padding : 0.0px 4px 0.2px 4px;
 	border-top : 1;
 	overflow : auto;
 	}
-
+```
 
 
 
