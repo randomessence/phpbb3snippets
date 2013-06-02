@@ -11,10 +11,14 @@ or
 
 Find:
 
-```$this->message = make_clickable($this->message, $server_url);```
+```php
+$this->message = make_clickable($this->message, $server_url);
+```
 
 Replace with:
 
-```$this->message = $this->message;```
+```php
+$this->message = $this->message;
+```
 
 The second way is better suited if you use large amounts of code with links of any type. As phpbb3 will only linkify a link when you use the a bbcode. ( this also means url shortening is disabled, again which is better for usage of this mod ) and syntax highlighter 3 has its own link detection.
