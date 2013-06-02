@@ -2,7 +2,7 @@
 
 Open `styles/prosilver/template/posting_buttons.html`
 
-**Find: **
+**Find:**
 
 ```js
 l: '{LA_BBCODE_L_HELP}',
