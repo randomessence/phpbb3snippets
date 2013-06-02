@@ -42,7 +42,7 @@ dE('colour_palette');
     <input type="button" class="button2" accesskey="b" name="addbbcode0" value=" B " style="font-weight:bold; width: 30px" onclick="bbstyle(0)" title="{L_BBCODE_B_HELP}" />
 ```
 
-*Replace with: *
+*Replace with:*
 
 ```html
     <input type="text" readonly="readonly" name="helpbox" style="width:80%" class="<!-- IF S_IN_UCP -->helpline2<!-- ELSE -->helpline<!-- ENDIF -->" value="{L_STYLES_TIP}" /><br />
