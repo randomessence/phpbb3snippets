@@ -9,3 +9,6 @@ it is around line 41
 change it to 
 
 `$agreed	 = 1;`
+
+
+[https://www.phpbb.com/community/viewtopic.php?f=74&t=1895475](https://www.phpbb.com/community/viewtopic.php?f=74&t=1895475)
