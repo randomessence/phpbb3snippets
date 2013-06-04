@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="./xsl/modx.prosilver.en.xsl"?>
+<!-- 
+	NOTICE: Please open this file in your web browser. If presented with a security warning, you may safely tell it to allow the blocked content.
+-->
+<!--For security purposes, please check: http://www.phpbb.com/mods/ for the latest version of this MOD. Although MODs are checked before being allowed in the MODs Database there is no guarantee that there are no security problems within the MOD. No support will be given for MODs not found within the MODs Database which can be found at http://www.phpbb.com/mods/-->
+<mod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.phpbb.com/mods/xml/modx-1.2.5.xsd">
+	<header>
+		<license>http://opensource.org/licenses/gpl-license.php GNU General Public License v2</license>
+		<title lang="en">Prime Quick Login</title>
+		<description lang="en">This file provides instructions for upgrading the MOD. See the main install file for any additional information about the MOD.</description>
+		<author-group>
+			<author>
+				<realname>Ken F. Innes IV</realname>
+				<email>primehalo@gmail.com</email>
+				<username>primehalo</username>
+			</author>
+		</author-group>
+		<mod-version>1.2.2</mod-version>
+		<installation>
+			<level>easy</level>
+			<time>60</time>
+			<target-version>3.0.2</target-version>
+		</installation>
+		<link-group>
+			<link type="parent" href="../install.xml" lang="en">Main Install File</link>
+		</link-group>
+	</header>
+	<action-group>
+		<copy>
+			<file from="root/includes/prime_quick_login.php" to="includes/prime_quick_login.php" />
+			<file from="root/language/en/mods/prime_quick_login.php" to="language/en/mods/prime_quick_login.php" />
+			<file from="root/styles/prosilver/template/prime_quick_login.html" to="styles/prosilver/template/prime_quick_login.html" />
+		</copy>
+		<open src="styles/prosilver/templates/overall_header">
+			<edit>
+				<find><![CDATA[			<!-- IF S_PRIME_QUICK_LOGIN and not AUTO_REFRESH and not S_USER_LOGGED_IN and not S_IS_BOT -->
+			<form method="post" action="{S_PRIME_QUICK_LOGIN}" style="float:left;width:60%;overflow:visible;">
+				<fieldset class="quick-login" style="float:left;white-space:nowrap">
+					<label for="prime_login_username">{L_PRIME_QUICK_LOGIN_USERNAME}:</label>&nbsp;<input tabindex="100" type="text" name="username" id="prime_login_username" size="10" class="inputbox" style="min-width:100px" title="{L_PRIME_QUICK_LOGIN_USERNAME}" />  
+					<label for="prime_login_password">{L_PRIME_QUICK_LOGIN_PASSWORD}:</label>&nbsp;<input tabindex="101" type="password" name="password" id="prime_login_password" size="10" class="inputbox" style="min-width:100px" title="{L_PRIME_QUICK_LOGIN_PASSWORD}" />
+					<!-- IF S_AUTOLOGIN_ENABLED --><label for="prime_login_autologin"><input tabindex="102" type="checkbox" name="autologin" id="prime_login_autologin" /> {L_PRIME_QUICK_LOGIN_REMEMBER}</label><!-- ENDIF -->
+					<input tabindex="103" type="submit" name="login" value="{L_LOGIN}" class="button2" />
+				</fieldset>
+			</form>
+			<!-- ENDIF -->]]></find>
+		       <action type="replace-with"><![CDATA[			<!-- INCLUDE prime_quick_login.html -->]]></action>
+			</edit>
+		</open>
+	</action-group>
+</mod>
