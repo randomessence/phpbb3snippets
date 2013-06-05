@@ -1,10 +1,12 @@
 prettyphoto share on
 
-open: styles/prosilver/themplate/overall_header.html
+open: `styles/prosilver/themplate/overall_header.html`
 
 find:
 
-    </head>
+```html
+</head>
+```
 
 Code: Select all
 
