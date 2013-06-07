@@ -1,4 +1,6 @@
-prettyphoto share on
+[Credits](http://www.phpbb3bbcodes.com/viewtopic.php?f=52&t=1714)
+
+prettysociable:
 
 open: `styles/prosilver/themplate/overall_header.html`
 
@@ -35,7 +37,7 @@ $(document).ready(function(){
 <!--phpBB Pretty Sociable by Slash & Stoker www.wiizard.it www.phpbb3bbcodes.com-->
 ```
 
-open: styles/prosilver/themplate/viewtopic_body.html
+open: `styles/prosilver/themplate/viewtopic_body.html`
 
 Find:
 
@@ -49,7 +51,7 @@ Replace with:
 <h2><!-- IF S_IS_BOT --><a href="{U_VIEW_TOPIC}">{TOPIC_TITLE}</a><!-- ELSE --><a href="#" rel="prettySociable;title: Drag to share:;excerpt:{TOPIC_TITLE}">{TOPIC_TITLE}</a><!-- ENDIF --></h2>
 ```
 
-open: styles/prosilver/themplate/viewforum_body.html
+open: `styles/prosilver/themplate/viewforum_body.html`
 
 Find:
 
