@@ -1,3 +1,5 @@
+[https://www.phpbb.com/kb/article/fixed-width-prosilver/](https://www.phpbb.com/kb/article/fixed-width-prosilver/)
+
 open `themes/common.cs`
 
 ```css
